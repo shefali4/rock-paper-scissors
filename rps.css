@@ -1,0 +1,101 @@
+
+#titleRectangle {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    background: #000080;
+    height: 120px;
+    width: 1525px;
+}
+#title-text {
+	position:absolute;
+	left: 440px;
+	top: 0px;
+	font-size: 25px;
+
+}
+
+
+#round {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+    background: #A6ACAF;
+    height: 50px;
+    width: 1525px;
+}
+
+#background {
+	position: absolute;
+	top: 170px;
+	left: 0px;
+    background: #F2F3F4;
+    height: 2000px;
+    width: 2000px;
+}
+
+#playerSide {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+    background: #D6DBDF;
+    height: 550px;
+    width: 450px;
+}
+
+#opponentSide {
+	position: absolute;
+	top: 200px;
+	left: 950px;
+    background: #D6DBDF;
+    height: 550px;
+    width: 450px;
+}
+
+
+#playerTitle {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+    background: #00006F;
+    height: 80px;
+    width: 450px;
+}
+
+#opponentTitle {
+	position: absolute;
+	top: 200px;
+	left: 950px;
+    background: #00006F;
+    height: 80px;
+    width: 450px;
+}
+
+#player-text-header {
+	position:absolute;
+	left: 250px;
+	top: 205px;
+	font-size: 15px;
+}
+
+#opponent-text-header {
+	position:absolute;
+	left: 1120px;
+	top: 205px;
+	font-size: 15px;
+}
+.buttons {
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+    top: 400px;
+    left:530px;  
+}
+
+.action_btn {
+    height:40px;
+    width: 150px;
+    margin: 15px;
+    border:solid .2px transparent;
+    background-color: whitesmoke;
+}
