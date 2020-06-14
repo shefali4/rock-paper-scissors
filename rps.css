@@ -93,53 +93,66 @@
 
 #player-text-header {
 	position:absolute;
-	left: 250px;
+	left: 220px;
 	top: 205px;
 	font-size: 15px;
 }
 
 #opponent-text-header {
 	position:absolute;
-	left: 1120px;
+	left: 1160px;
 	top: 205px;
 	font-size: 15px;
 }
 
-.buttons {
-	padding: 10px 24px; 
-	position: absolute;
-    width: 10px;
-    top: 320px;
-    left:140px;
+
+.choices {
+    top: 100px;
+    left: 100px;
+    margin: 50px 1000px;
+    text-align: center;
 }
 
-.action_btn {
-    height:90px;
-    width: 240px;
-	cursor: pointer;
-    border:solid .2px transparent;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    font-size: 25px;
-
+.choice {
+    top: 230px;
+    left: 110px;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
 }
 
-.action_btn:hover {
+.choice > img {
+    width: 100px;
+}
+
+.choice:hover {
+    top: 240px;
+    left: 110px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+/*.action_btn:hover {
     height:90px;
     width: 240px;
-	cursor: pointer;
+    margin: 15px;
     border:solid .2px transparent;
     background-color: whitesmoke;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     border-radius: 50px;
     font-size: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} 
 
-}
+*/
+
 #question {
 	position:absolute;
 	font-size: 50px;
 	top:350px;
-	left:1130px;
+	left:230px;
 	font-size: 230px;
 }
 

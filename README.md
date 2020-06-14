@@ -1,1 +1,1 @@
-Rock, Paper, Scissors app in Javascript, HTML, CSS
+Developed rock, paper, scissors game using basics of Javascript, HTML, and CSS. As an introductory project to Javascript, I was able to implement three buttons to simulate playing the game with an opponent, the computer.
